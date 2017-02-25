@@ -1,6 +1,6 @@
 {
   "name": "micro-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small collection of useful small snippets for JavaScript and Node.js. Designed to be lightweight, independent and undisruptive as much as possible.",
   "main": "index.js",
   "scripts": {
