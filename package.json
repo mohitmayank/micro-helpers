@@ -1,0 +1,19 @@
+{
+  "name": "micro-helpers",
+  "version": "1.0.0",
+  "description": "Small collection of useful small snippets for JavaScript and Node.js. Designed to be lightweight, independent and undisruptive as much as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitmayank/micro-helpers.git"
+  },
+  "author": "Mohit jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohitmayank/micro-helpers/issues"
+  },
+  "homepage": "https://github.com/mohitmayank/micro-helpers#readme"
+}
