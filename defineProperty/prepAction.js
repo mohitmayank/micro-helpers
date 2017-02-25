@@ -14,8 +14,8 @@ exports = module.exports = function prepAction(object, action){
 			return this[__action];
 		},
 		set : function(action){
-			var self = this;
 			addInnumerable(object, __action, function(){
+				var self = this;
 				if(self[beforeAction] && typeof self[beforeAction] === 'function') {
 					self[beforeAction].apply(self, arguments);
 				}
