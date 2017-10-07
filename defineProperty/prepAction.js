@@ -14,7 +14,7 @@ exports = module.exports = function prepAction(object, action){
 			return this[__action];
 		},
 		set : function(action){
-			addInnumerable(object, __action, function(){
+			addInnumerable(object, __action, { value : function(){
 				var self = this;
 				if(self[beforeAction] && typeof self[beforeAction] === 'function') {
 					self[beforeAction].apply(self, arguments);
@@ -23,7 +23,7 @@ exports = module.exports = function prepAction(object, action){
 				if(self[afterAction] && typeof self[afterAction] === 'function') {
 					self[afterAction].apply(self, arguments);
 				}
-			});
+			}});
 		}
 	});
 };
