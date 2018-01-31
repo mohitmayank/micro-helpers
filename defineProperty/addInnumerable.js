@@ -7,8 +7,7 @@ exports = module.exports = function addInnumerable(object, name, options){
 	} else {
 		var descriptor = {
 			configurable: false,
-			enumerable: false,
-			writable: true
+			enumerable: false
 		};
 		if(options.value) {
 			descriptor.value = options.value;
